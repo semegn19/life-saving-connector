@@ -1,0 +1,37 @@
+[
+  {
+    "_id": { "$oid": "64b000000000000000000001" },
+    "name": "System Admin",
+    "email": "admin@lsc.local",
+    "password": "Password123!",
+    "role": "PLATFORM_ADMIN",
+    "phone": "+15550000001",
+    "isVerified": true,
+    "createdAt": { "$date": "2025-12-01T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-12-01T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "64b000000000000000000002" },
+    "name": "Amina Yusuf",
+    "email": "amina@lsc.local",
+    "password": "Password123!",
+    "role": "user",
+    "phone": "+15550000002",
+    "bloodType": "O+",
+    "location": "Downtown",
+    "isVerified": true,
+    "createdAt": { "$date": "2025-12-05T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-12-05T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "64b000000000000000000003" },
+    "name": "Hope Hospital Coordinator",
+    "email": "coordinator@hope.local",
+    "password": "Password123!",
+    "role": "BLOOD_ADMIN",
+    "phone": "+15550000003",
+    "isVerified": true,
+    "createdAt": { "$date": "2025-12-06T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-12-06T10:00:00.000Z" }
+  }
+]

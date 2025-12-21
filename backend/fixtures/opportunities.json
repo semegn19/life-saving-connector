@@ -1,0 +1,30 @@
+[
+  {
+    "_id": { "$oid": "64b200000000000000000001" },
+    "organizationId": { "$oid": "64b100000000000000000002" },
+    "title": "Weekend Blood Drive Volunteers",
+    "description": "Help with registration, queue management, and donor guidance.",
+    "location": "Hope Hospital - North Wing",
+    "startDate": { "$date": "2025-12-21T09:00:00.000Z" },
+    "endDate": { "$date": "2025-12-21T15:00:00.000Z" },
+    "slots": 10,
+    "status": "open",
+    "type": "blood",
+    "createdAt": { "$date": "2025-12-10T09:00:00.000Z" },
+    "updatedAt": { "$date": "2025-12-10T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "64b200000000000000000002" },
+    "organizationId": { "$oid": "64b100000000000000000001" },
+    "title": "Donor Support Desk",
+    "description": "Assist donors with forms and basic information.",
+    "location": "City Blood Bank - Lobby",
+    "startDate": { "$date": "2025-12-22T10:00:00.000Z" },
+    "endDate": { "$date": "2025-12-22T14:00:00.000Z" },
+    "slots": 6,
+    "status": "open",
+    "type": "blood",
+    "createdAt": { "$date": "2025-12-11T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-12-11T10:00:00.000Z" }
+  }
+]
